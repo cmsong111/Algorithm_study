@@ -1,2 +1,2 @@
-#this is namju's code test result
-#it's my study coding
+CodeUP
+https://codeup.kr/index.php
