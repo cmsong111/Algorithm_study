@@ -1,3 +1,5 @@
+namju's study code
+
 CodeUP
 https://codeup.kr/index.php
 
