@@ -1,12 +1,42 @@
-a,b = map(int,input().split())
-lis = list(map(int,input().split()))
-num = []
-for i1 in range (a):
-    for i2 in range (a):
-        for i3 in range (a):
-            if (lis[i1]+lis[i2]+lis[i3]) <= b:
-                if i1 != i2:
-                    if i2 != i3:
-                        if i1 != i3:
-                            num.append(lis[i1]+lis[i2]+lis[i3])
-print(max(num))
+a,b= map(int,input().split())
+
+board = []
+
+#입력
+for i in range(a):
+    temp = list(input())
+    board.append(temp)
+
+#출력( 잘 받았는지)
+for x in range(a):
+    for y in range(b):
+        print(board[x][y],sep="",end="")
+    print()
+
+
+
+#처리(비교하는 부분)
+
+#board[0][0]번이 B일때
+count1 = 0
+check = 0
+if b % 2 == 1:
+    for x in range(a):
+        for y in range(b):
+            check +=1
+            if check % 2 == 0:
+                word = "B"
+            else:
+                word = "W"
+            if board[x][y] != "B" :
+                
+
+print(count1)
+    
+#board[0][0]번이 W일때
+count2 = 1
+
+
+#비교하기
+
+print(min(count1,count2))
