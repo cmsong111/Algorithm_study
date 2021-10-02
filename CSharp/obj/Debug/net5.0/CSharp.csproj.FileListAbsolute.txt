@@ -1,0 +1,16 @@
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\bin\Debug\net5.0\CSharp.exe
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\bin\Debug\net5.0\CSharp.deps.json
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\bin\Debug\net5.0\CSharp.runtimeconfig.json
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\bin\Debug\net5.0\CSharp.runtimeconfig.dev.json
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\bin\Debug\net5.0\CSharp.dll
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\bin\Debug\net5.0\ref\CSharp.dll
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\bin\Debug\net5.0\CSharp.pdb
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.csproj.AssemblyReference.cache
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.AssemblyInfoInputs.cache
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.AssemblyInfo.cs
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.csproj.CoreCompileInputs.cache
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.dll
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\ref\CSharp.dll
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.pdb
+C:\Users\cmson\Documents\GitHub\NJ_code\CSharp\obj\Debug\net5.0\CSharp.genruntimeconfig.cache
