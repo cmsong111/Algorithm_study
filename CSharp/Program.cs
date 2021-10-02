@@ -5,15 +5,11 @@ namespace BrainCSharp
 {
     class HelloWorld
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            if (args.Length == 0)
-            {
-                Console.Writeline("사용법 : Helloworld.exe <이름>");
-                return;
-            }
-        
-            Writeline("Hello, {0}!", args[0]);
+            
+            WriteLine("여러분, 안녕하세요?\n반갑습니다!");
+            
         }
     }
 }
