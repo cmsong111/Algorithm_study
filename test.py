@@ -1,14 +1,19 @@
-temp = 26
-if temp < 10:
-        sum = temp
-elif temp >= 10:
-     sum = temp//10 + temp%10
+class JSS:
+    def __init__(self):
+        self.name = input("이름: ")
+        self.age = input("나이: ")
+    
+    def show(self):
+        print("나의 이름은 {}. 나이는 {}세 입니다.".format(self.name, self.age))
 
-print(sum)
+a = JSS()
+a.name
+a.age
+a.show()
 
-if temp < 10:
-    temp = temp*10 + temp
-elif temp >= 10:
-    temp = ((temp%10)*10 + (sum%10))
+b = JSS()
+b.name
+b.age
+b.show()
 
-print(temp)
+print(b.age)
