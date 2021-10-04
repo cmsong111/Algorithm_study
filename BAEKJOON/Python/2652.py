@@ -1,7 +1,7 @@
-a = int(input())
+
 lis = []
 
-for i in range(a):
+for i in range(9):
     lis.append(int(input()))
 
 
