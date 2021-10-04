@@ -1,26 +1,14 @@
-N, M = map(int, input().split())
-original = []
-count = []
+temp = 26
+if temp < 10:
+        sum = temp
+elif temp >= 10:
+     sum = temp//10 + temp%10
 
-for _ in range(N):
-    original.append(input())
+print(sum)
 
-for a in range(N-7):
-    for b in range(M-7):
-        index1 = 0
-        index2 = 0
-        for i in range(a, a+8):
-            for j in range(b, b+8):
-                if (i+j) % 2 == 0:
-                    if original[i][j] != 'W':
-                        index1 += 1
-                    if original[i][j] != "B":
-                        index2 += 1
-                else:
-                    if original[i][j] != 'B':
-                        index1 += 1
-                    if original[i][j] != 'W':
-                        index2 += 1
-        count.append(min(index1, index2))
+if temp < 10:
+    temp = temp*10 + temp
+elif temp >= 10:
+    temp = ((temp%10)*10 + (sum%10))
 
-print(min(count))
+print(temp)
