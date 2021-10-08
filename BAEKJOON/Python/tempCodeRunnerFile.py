@@ -9,10 +9,10 @@ for i in range(num):
             score.append((10000 + a*1000))
     if lis[0]==lis[1]:
         if lis[1]!=lis[2]:
-            score.append((1000 + lis[0]*100))
+            score.append((1000 + a*100))
     if lis[0]!=lis[1]:
         if lis[1]==lis[2]:
-            score.append((1000 + lis[1]*100))
+            score.append((1000 + a*100))
     if lis[0]!=lis[1]:
         if lis[1]!=lis[2]:
             score.append(max(lis) * 100)
