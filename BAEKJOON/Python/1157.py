@@ -7,7 +7,6 @@ count =[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 for i in range(how_long):
     count[int(ord(alpha[i]))-64] +=1
-print("count",count)
 
 count2 = list(count)
 count2.sort()
