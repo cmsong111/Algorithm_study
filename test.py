@@ -1,2 +1,6 @@
-temp = [0]*10001
-print(temp)
+def hello(x,b):
+    return (x+b)
+
+x = 10
+y = 20
+hello(x,y)
