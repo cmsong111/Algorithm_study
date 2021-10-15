@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 num = int(input())
 count = 0
 while(1):
