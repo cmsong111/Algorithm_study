@@ -1,3 +1,5 @@
+
+
 a = int(input())
 lis = []
 for i in range(a):
