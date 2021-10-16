@@ -1,15 +1,41 @@
-a = list(input().split("-"))
-for i in range(len(a)):
-    b = []
-    b.append(a[i].split("+"))
-    temp = 0
-    for i1 in range(len(b)):
-        for i2 in range(len(b[i1])):
-            tmp = b[i1][i2]
-            temp = temp + int(tmp)
-    a[i] = int(temp)
+<<<<<<< HEAD
+num = int(input())
+count = 0
+while(1):
+    if num == 1:
+        break
+    
+    if num % 3 == 1:
+        num -=1
+        count +=1
+        print(num)
+        num /=3
+        count +=1
+        print(num)
 
-sum = int(a[0])
-for i in range(1,len(a),1):
-    sum -=int(a[i])
-print(sum)
+
+    elif num % 3 == 0:
+        num = num / 3
+        count +=1
+        print(num)
+
+    elif num % 2 == 1:
+        num = num -1
+        count +=1
+        print(num)
+        num = num / 2
+        count +=1
+        print(num)
+
+    elif num % 2 == 0:
+        num = num / 2
+        count +=1
+        print(num)
+
+    else:
+        num = num - 1
+        count +=1
+        print(num)
+    
+    
+print(count)
