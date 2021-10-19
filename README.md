@@ -1,4 +1,4 @@
-### namju's Algorithm_study code
+# namju's Algorithm_study code
 
 ## CodeUP
 
@@ -8,6 +8,6 @@ https://codeup.kr/index.php
 
 https://www.acmicpc.net/
 
-# solved.ac score
+### solved.ac score
 
 https://solved.ac/profile/cmsong111
