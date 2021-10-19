@@ -1,14 +1,13 @@
-namju's Algorithm_study code
+### namju's Algorithm_study code
 
-
-CodeUP
+## CodeUP
 
 https://codeup.kr/index.php
 
-BAEKJOON
+## BAEKJOON
 
 https://www.acmicpc.net/
 
-solved.ac score
+# solved.ac score
 
 https://solved.ac/profile/cmsong111
