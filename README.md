@@ -1,11 +1,10 @@
-namju's study code
+namju's Algorithm_study code
 
 CodeUP
 https://codeup.kr/index.php
 
-C
-C 언어 콘서트
-
 BAEKJOON
 https://www.acmicpc.net/
 
+solved.ac score
+https://solved.ac/profile/cmsong111
