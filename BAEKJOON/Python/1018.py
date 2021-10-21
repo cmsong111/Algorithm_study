@@ -1,12 +1,12 @@
 a, b= map(int,input().split())
 board = []
 
-#ÀÔ·Â
+#ì…ë ¥
 for i in range(a):
     temp = list(input())
     board.append(temp)
 
-#´ëÁ¶±º¸®½ºÆ® »ı¼º
+#ëŒ€ì¡°êµ°ë¦¬ìŠ¤íŠ¸ ìƒì„±
 compare_list_1 = []
 for x in range(25):
         compare_list_1.append(list("WB"*25))
@@ -17,22 +17,22 @@ for x in range(25):
         compare_list_2.append(list("BW"*25))
         compare_list_2.append(list("WB"*25))
 
-#ºñ±³
+#ë¹„êµ
 count1 = 0
 count2 = 0
-#´ëÁ¶±º 1
+#ëŒ€ì¡°êµ° 1
 for x in range(a):
     for y in range(b):
         if str(board[x][y]) != str(compare_list_1[x][y]):
             count1 = count1 +1
         
-#´ëÁ¶±º 2
+#ëŒ€ì¡°êµ° 2
 for x in range(a):
     for y in range(b):
         if str(board[x][y]) != str(compare_list_2[x][y]):
             count2 = count2 + 1
       
-#01·Î ¸¸µç º¸µå ¸¸µé±â
+#01ë¡œ ë§Œë“  ë³´ë“œ ë§Œë“¤ê¸°
 if count1 <= count2:
     list01 = []
     temp = []
@@ -59,11 +59,11 @@ elif count1 >= count2:
 smallbox=[]
 temp = 0
 
-#±× Áß¿¡¼­ ´Ù 01µéÀ» ´õÇßÀ»¶§ 8*8 »çÀÌÁî Áß¿¡¼­ ÀÛÀº ÆÄÆ®À» ´õÇÏ±â
-#¸î È¸ ¹İº¹ÇÒÁö
+#ê·¸ ì¤‘ì—ì„œ ë‹¤ 01ë“¤ì„ ë”í–ˆì„ë•Œ 8*8 ì‚¬ì´ì¦ˆ ì¤‘ì—ì„œ ì‘ì€ íŒŒíŠ¸ì„ ë”í•˜ê¸°
+#ëª‡ íšŒ ë°˜ë³µí• ì§€
 for x in range(a-7):
     for y in range(b-7):
-        #³»¿ë¹° ´Ù ´õÇÏ±â
+        #ë‚´ìš©ë¬¼ ë‹¤ ë”í•˜ê¸°
         for i1 in range(8):
             for i2 in range(8):
                 temp = temp + list01[x+i1][y+i2]
