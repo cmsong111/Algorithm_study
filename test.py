@@ -1,10 +1,52 @@
-#파이썬 내장 리스트 사용할때
+import sys
 
-#파이썬 기본 리스트 선언하는법
-In =[1,2,3,4]
+size = int(sys.stdin.readline())
+board = []
+result = []
 
-#In 리스트 전체를 출력
-print(In)
 
-#In 리스트중에서 2번째 값만 출력
-print(In[2])
+#입력받기
+for i in range(size):
+    temp = sys.stdin.readline().strip()
+    tmp=[]
+    for i1 in range(len(temp)):
+        tmp.append(temp[i1])
+    board.append(tmp)
+
+for i in range(size):
+    result.append([0]*size)
+
+
+#작업부
+for x in range(size):
+    for y in range(size):
+        if board[x][y] == ".":
+            #가로 줄 
+            if "B" in board[x][y:]:
+                print(x,y,board[x][y:])
+                if "W" in board[x][y:]:
+                    result[x][y] += 1
+                print(x,y,board[x][:y])
+                if "W" in board[x][:y]:
+                    result[x][y] += 1
+                print(result[x][y])
+
+            #세로 줄 
+            if "B" in board[x:][y]:
+                print(x,y,board[x:][y])
+                if "W" in board[x:][y]:
+                    result[x][y] += 1
+                print(x,y,board[:x][y])
+                if "W" in board[:x][y]:
+                    result[x][y] += 1
+                print(result[x][y])
+
+            
+                
+
+
+#출력부
+for x in range(size):
+    for y in range(size):
+        print(board[x][y],end="")
+    print()    
