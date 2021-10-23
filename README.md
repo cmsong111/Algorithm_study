@@ -2,7 +2,7 @@
 
 ## CodeUP
 
-https://codeup.kr/index.php
+https://codeup.kr/userinfo.php?user=cmsong111
 
 ## BAEKJOON
 
