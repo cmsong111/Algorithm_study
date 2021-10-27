@@ -1,32 +1,33 @@
+from collections import deque
+
 import sys
-count = int(input())
-lis = []
-for i in range(count):
-    x,y =map(int,input().split())
-    lis.append([x,y,chr(i+65)])
-    
+deq = deque()
+for i in range(int(sys.stdin.readline().strip())):
+    a = sys.stdin.readline().strip()
+  
+    try:   
+        a,b = a.split(' ')
+    except:
+        pass
 
-ans = list(lis)
-lis.sort()
-lis.reverse()
+    print(a)
 
-x = 1
-result = [1]
-for i in range(count-1):
-    if lis[i][0] > lis[i+1][0] and lis[i][1] > lis[i+1][1]:
-        result.append(result[i]+x)
-    else:
-        result.append(result[i])
-        x +=1
+    if a == "pop_front":
+        if len(deq)==0:
+            print("-1")
+        else:
+            deq.popleft()
+    #pop_back
+    elif a == "pop_back":
+        if len(deq)==0:
+            print("-1")
+        else:
+            deq.pop()
+    #push_back
+    elif a == "push_back":
+        deq.append(b)
+    #push_front
+    elif a == "push_front":
+        deq.appendleft(b)
 
-temp = []
-for i in range(count):
-    temp.append([lis[i][2],result[i]])
-
-
-temp.sort()
-print(temp)
-
-for i in range(count-1):
-    print(temp[i][1],end=" ")
-print(temp[count-1][1])
+        
