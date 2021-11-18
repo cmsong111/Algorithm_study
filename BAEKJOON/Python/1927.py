@@ -10,6 +10,6 @@ for i in range(int(sys.stdin.readline().strip())):
             print("0")
         else:
             result = heapq.heappop(a)
-            print(-result)
+            print(result)
     else:
-        heapq.heappush(a, -temp)
+        heapq.heappush(a, temp)
