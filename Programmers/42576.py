@@ -25,3 +25,17 @@ def solution(participant, completion):
             break
    
     return answer
+
+#3 try
+def solution(phone_book):
+    phone_book.sort()
+    answer = True
+    phone_book_len = len(phone_book)
+        
+    for i in range(phone_book_len-1):
+        test = len(phone_book[i])
+        if phone_book[i] == phone_book[i+1][:test]:
+            answer = False
+            break
+    
+    return answer
